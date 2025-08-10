@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+  /* E-Sports Background */
+  background-color: #1a1a1a; 
+  color: white;
+  overflow: hidden; /* To contain spotlights/particles */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* E-Sports Arena Background */
+.esports-arena-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(ellipse at top, #3c3c3c, #1a1a1a);
+  z-index: -1;
+  overflow: hidden;
+}
+
+/* Particles */
+.particles {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.particle {
+    position: absolute;
+    background: #00e5ff;
+    border-radius: 50%;
+    opacity: 0;
+    animation: rise 10s infinite linear;
+}
+
+@keyframes rise {
+    0% { transform: translateY(100vh) scale(0.5); opacity: 1; }
+    100% { transform: translateY(-10vh) scale(0); opacity: 0; }
+}
+
+/* Spotlights */
+.spotlight {
+  position: absolute;
+  top: -100%;
+  left: 50%;
+  width: 200px;
+  height: 400%;
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.2) 0%,
+    rgba(255, 255, 255, 0) 80%
+  );
+  border-radius: 50%;
+  filter: blur(10px);
+  transform-origin: top center;
+}
+
+.spotlight.s1 { animation: pan 15s linear infinite; }
+.spotlight.s2 { animation: pan 20s linear infinite -5s; left: 20%; }
+.spotlight.s3 { animation: pan 18s linear infinite -10s; left: 80%; }
+
+@keyframes pan {
+  0% { transform: rotate(-45deg); }
+  50% { transform: rotate(45deg); }
+  100% { transform: rotate(-45deg); }
+}
