@@ -30,7 +30,7 @@ const initialTeamNames = {
 
 const newNames = {
   WIN: 'LOSE',
-  TNT: '당시기준전교1등과2등으로신입생대표였던박윤호와배윤을면접에서탈락시킨이상한동아리',
+  TNT: '당시전교1등과2등으로신입생대표였던박윤호와배윤을탈락시킨GOAT동아리',
   LOTTOL: 'LOTTO',
   RAIBIT: 'GAYBIT',
   PLUTONIUM: 'MECA',
