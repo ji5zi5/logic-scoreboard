@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/logic-scoreboard/static/css/main.7bb43cfc.css",
+    "main.css": "/logic-scoreboard/static/css/main.1830653f.css",
     "main.js": "/logic-scoreboard/static/js/main.99a2ad7b.js",
     "static/js/453.966bd1ad.chunk.js": "/logic-scoreboard/static/js/453.966bd1ad.chunk.js",
     "index.html": "/logic-scoreboard/index.html",
-    "main.7bb43cfc.css.map": "/logic-scoreboard/static/css/main.7bb43cfc.css.map",
+    "main.1830653f.css.map": "/logic-scoreboard/static/css/main.1830653f.css.map",
     "main.99a2ad7b.js.map": "/logic-scoreboard/static/js/main.99a2ad7b.js.map",
     "453.966bd1ad.chunk.js.map": "/logic-scoreboard/static/js/453.966bd1ad.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7bb43cfc.css",
+    "static/css/main.1830653f.css",
     "static/js/main.99a2ad7b.js"
   ]
 }
