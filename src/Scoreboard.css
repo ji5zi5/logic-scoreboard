@@ -53,9 +53,14 @@ body {
 }
 
 .team-name {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 600;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
+  word-break: break-all;
+  min-height: 110px; /* Adjust as needed */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .score-display {
