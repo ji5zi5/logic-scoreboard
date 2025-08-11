@@ -100,7 +100,7 @@ const Scoreboard = () => {
             style={{ animationDelay: `${index * 0.1}s` }}
           >
             <img src={process.env.PUBLIC_URL + teamLogos[team]} alt={`${teamNames[team]} logo`} className="team-logo" />
-            <h2 className="team-name">{teamNames[team]}</h2>
+            <h2 className={teamNames[team] === longTeamNames.TNT ? "team-name team-name-long" : "team-name"}>{teamNames[team]}</h2>
             <div className="score-display">{scores[team]}</div>
             <div className="score-buttons">
               <button onClick={(e) => {
